@@ -1,0 +1,317 @@
+/* 
+
+Template 2024 Vertiwood
+
+http://www.tooplate.com/view/2024-vertiwood
+
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #978a71;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #181617;
+	background-image: url(images/tooplate_body.jpg);
+	background-repeat: repeat;
+}
+
+a, a:link, a:visited { 
+	color: #98610c; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+.orange {
+	color: #C60;
+}
+
+.green {
+	color: #399;
+}
+
+.madera {
+     color: #986109;
+}
+
+p { 
+	margin: 0 0 15px 0; 
+	padding: 0; 
+}
+
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #000; 
+}
+
+h1 { 
+	font-size: 30px; 
+	font-weight: normal; 
+	margin: 0 0 20px 0; 
+	padding: 5px 0; 
+}
+
+h2 { 
+	font-size: 28px; 
+	font-weight: normal; 
+	padding-bottom: 20px; 
+	margin: 0 0 20px 0; 
+	font-weight: normal; 
+	border-bottom: 1px dashed #000; /*borde debajo del titulo*/
+}
+
+h3 { 
+	font-size: 20px; 
+	margin: 0 0 15px 0; 
+	padding: 0; 
+	font-weight: normal;  
+}
+
+h4 { 
+	font-size: 16px; 
+	margin: 0 0 15px 0; 
+	padding: 0; 
+}
+
+h5 { 
+	font-size: 12px; 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+}
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.image_wrapper { 
+	display: inline-block; 
+	border: 1px dashed #666; 
+	padding: 4px;
+	margin-bottom: 10px; 
+}
+.icon {
+    height: 30%;
+    width: 30%;
+}
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 20px; 
+}
+
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#333; }
+cite span { color: #333; }
+em { color: #ab6700; }
+
+.col_340 { width: 340px; } 
+.col_400 { width: 400px; }
+.col_280 { width: 280px; }
+
+.service_list { 
+	margin: 0 0 0 15px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.service_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.service_list li a { 
+	font-size: 13px; 
+	display: block; 
+	height: 25px; 
+	margin-bottom: 10px; 
+	padding-left: 40px; 
+	text-decoration: none; 
+}
+
+.service_list li .service_one { 
+	background: url(images/onebit_08.png) center left no-repeat; 
+}
+
+.service_list li .service_two { 
+	background: url(images/onebit_11.png) center left no-repeat; 
+}
+
+.service_list li .service_three { 
+	background: url(images/onebit_17.png) center left no-repeat; 
+}
+
+.service_list li .service_four { 
+	background: url(images/onebit_21.png) center left no-repeat; 
+}
+
+.service_list li .service_five { 
+	background: url(images/onebit_12.png) center left no-repeat; 
+}
+
+.service_list li .service_six { 
+	background: url(images/onebit_19.png) center left no-repeat; 
+}
+
+.formulario {  
+    margin-left: auto;
+    margin-right: auto;
+	padding: 0; 
+	width: 70%; 
+}
+
+.formulario table tr td{ 
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.formulario form { 
+    margin: 0px; 
+	padding: 0px; 
+}
+
+.formulario form .input_field { 
+	width: 95%;
+    padding: 5px; 
+	color: #333; 
+	background: #ffffff; 
+	border: 1px solid #dddad6; 
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px; 
+}
+
+.formulario form label { 
+	display: inline;
+	margin-right: 10px; 
+	font-size: 13px; 
+}
+
+.formulario form textarea { 
+	width: 328px;  
+	height: 80px; 
+	padding: 5px;
+	color: #333; 
+	background: #ffffff; 
+	border: 1px solid #dddad6; 
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px; 
+}
+
+.formulario form .submit_btn {
+    margin: 5px;
+	padding: 5px 10px;
+	background: #ffffff; 
+	border: 1px solid #dddad6;
+}
+
+.formulario form .file {
+	margin: 5px 0px;
+	padding: 5px 14px;
+	background: #ffffff; 
+	border: 1px solid #dddad6;
+}
+
+/* gallery */
+#gallery_container { 
+	clear: both; 
+	margin: 0; 
+	padding: 0; 
+} 
+
+#gallery_container li {
+	float: left;
+	width: 170px;
+	display: block; 
+	padding: 0;
+	margin: 0 15px 10px 0;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+}
+
+#gallery_container .odd { 
+	margin: 0 0 10px 0; 
+}
+
+#gallery_container li img { 
+	width: 160px; 
+	height: 80px; 
+	padding: 4px; 
+	border: 1px dotted #333; 
+	background: none; 
+}
+/* end of gallery */
+
+.col_w300 {
+	float: left;
+	width: 279px;
+	padding-right: 20px;
+	margin-right: 20px;
+	border-right: 1px solid #b2c9d2;
+}
+
+.tdatatable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tdatatable td, .tdatatable th {
+    font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+
+.tdatatable th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+.tdatatable tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+ul.boton {
+    padding: 0;
+}
+
+ul.boton li {
+    display: inline;
+}
+
+ul.boton li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    /*this is el borde circular que tiene*/
+    border-radius: 4px 4px 4px 4px;
+	border: 1px solid #98bf21;
+    color: #000000;
+}
+
+ul.boton li a:hover {
+    background-color: #C1D97A;
+    color: #ffffff;
+}
