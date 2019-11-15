@@ -19,3 +19,15 @@ My connection to this project is really personal, because it was the first time 
 - Sharing what I learnt with @nucleognulinux a study group at my college
 
 Most of my learning process came from [w3schools.com](w3schools.com)
+
+## How to start ▶️
+### Prerequisites
+1. Git
+1. LAMP or WAMP or XAMP server
+1. A clone of this [repo](https://github.com/luucamay/teatrical)
+### Running locally
+1. Start the apache server
+1. Start the mysql server
+1. Import the database to your dlocal databases using the tae_db file
+1. Open the repo at localhost/src
+1. At the login page use the credentials admin/admin for the name and password.
