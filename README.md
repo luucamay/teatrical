@@ -1,4 +1,4 @@
-# teatrical
+# Teatrical
 
 This project is my first web project created at 2015.
 
